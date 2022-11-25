@@ -8,31 +8,103 @@ proxy-providers:
   pro:
     type: http
     path: ./profiles/proxies/pro.yaml
-    url: https://raw.githubusercontent.com/Toukuni/self/main/1.txt?token=GHSAT0AAAAAABWKORYVUADPNRIX23GGJ73SY4AO7QA
+    url: https://suo.yt/ooBfQ7r
     interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
-  paimon:
+
+  Paimon Hub@nodpai:
     type: http
-    path: ./profiles/proxies/paimon.yaml
-    url: https://raw.githubusercontent.com/Toukuni/self/main/1.txt?token=GHSAT0AAAAAABWKORYVUADPNRIX23GGJ73SY4AO7QA
+    path: ./profiles/proxies/Paimon Hub@nodpai.yaml
+    url: https://suo.yt/gF6caXp
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
+  @Jsnzk:
+    type: http
+    path: ./profiles/proxies/@Jsnzk.yaml
+    url: https://suo.yt/di3sUTX
+    interval: 3600
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
   
 proxy-groups:  
-  - name: PROXY
+  - name: 🚀 节点选择
     type: select
-    url: http://www.gstatic.com/generate_204
-    interval: 3600
     use:
       - pro
-      - paimon
+      - Paimon Hub@nodpai
+      - @Jsnzk
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - pro
+      - Paimon Hub@nodpai
+      - @Jsnzk
     proxies:
       - DIRECT
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
 rules:
   - DOMAIN,vip.lz-cdn2.com,🎯 全球直连
   - DOMAIN-SUFFIX,behance.net,🌍 国外媒体
