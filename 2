@@ -7,6 +7,7 @@ external-controller: 127.0.0.1:9090
 proxy-providers:
   pro:
     type: http
+    path: ./profiles/proxies/pro.yaml
     url: https://raw.githubusercontent.com/Toukuni/self/main/1.txt?token=GHSAT0AAAAAABWKORYVUADPNRIX23GGJ73SY4AO7QA
     interval: 3600
     health-check:
@@ -15,6 +16,7 @@ proxy-providers:
       interval: 300
   paimon:
     type: http
+    path: ./profiles/proxies/paimon.yaml
     url: https://raw.githubusercontent.com/Toukuni/self/main/1.txt?token=GHSAT0AAAAAABWKORYVUADPNRIX23GGJ73SY4AO7QA
     health-check:
       enable: true
