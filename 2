@@ -34,6 +34,26 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 300
+     
+  1:
+    type: http
+    path: ./profiles/proxies/1.yaml
+    url: https://suo.yt/NG0TqeT
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+      
+  2:
+    type: http
+    path: ./profiles/proxies/2.yaml
+    url: https://suo.yt/R4AI8Cg
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
   
 proxy-groups:  
   - name: 🚀 节点选择
