@@ -35,10 +35,10 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 300
      
-  1:
+  paimon:
     type: http
-    path: ./profiles/proxies/1.yaml
-    url: 
+    path: ./profiles/proxies/paimon.yaml
+    url: https://suo.yt/CWoKloh
     interval: 3600
     health-check:
       enable: true
@@ -62,6 +62,7 @@ proxy-groups:
       - pro
       - airports crawl
       - 1@Jsnzk
+      - paimon
     proxies:
       - ♻️ 自动选择
       - DIRECT
@@ -74,6 +75,7 @@ proxy-groups:
       - pro
       - airports crawl
       - 1@Jsnzk
+      - paimon
     proxies:
       - DIRECT
   - name: 🌍 国外媒体
