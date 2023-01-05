@@ -8,7 +8,7 @@ proxy-providers:
   pro:
     type: http
     path: ./profiles/proxies/pro.yaml
-    url: https://suo.yt/ooBfQ7r
+    url: https://suo.yt/yFSwpsi
     interval: 3600
     health-check:
       enable: true
@@ -18,7 +18,7 @@ proxy-providers:
   airports crawl:
     type: http
     path: ./profiles/proxies/Paimon Hub@nodpai.yaml
-    url: https://suo.yt/EM3frMP
+    url: https://suo.yt/hppIo5E
     interval: 3600
     health-check:
       enable: true
@@ -35,25 +35,6 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 300
      
-  paimon:
-    type: http
-    path: ./profiles/proxies/paimon.yaml
-    url: https://suo.yt/CWoKloh
-    interval: 3600
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 300
-      
-  2:
-    type: http
-    path: ./profiles/proxies/2.yaml
-    url: 
-    interval: 3600
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 300
   
 proxy-groups:  
   - name: 🚀 节点选择
@@ -62,7 +43,6 @@ proxy-groups:
       - pro
       - airports crawl
       - 1@Jsnzk
-      - paimon
     proxies:
       - ♻️ 自动选择
       - DIRECT
@@ -75,7 +55,6 @@ proxy-groups:
       - pro
       - airports crawl
       - 1@Jsnzk
-      - paimon
     proxies:
       - DIRECT
   - name: 🌍 国外媒体
