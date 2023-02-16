@@ -15,20 +15,10 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 300
 
-  airports crawl:
+  temp:
     type: http
-    path: ./profiles/proxies/airports crawl.yaml
-    url: https://suo.yt/hppIo5E
-    interval: 3600
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 300
-
-  Jsnzk:
-    type: http
-    path: ./profiles/proxies/Jsnzk.yaml
-    url: https://suo.yt/di3sUTX
+    path: ./profiles/proxies/temp.yaml
+    url: https://suo.yt/uQbjnMU
     interval: 3600
     health-check:
       enable: true
@@ -51,8 +41,7 @@ proxy-groups:
     type: select
     use:
       - pro
-      - airports crawl
-      - Jsnzk
+      - temp
       - paimon
     proxies:
       - ♻️ 自动选择
@@ -64,8 +53,7 @@ proxy-groups:
     tolerance: 50
     use:
       - pro
-      - airports crawl
-      - Jsnzk
+      - temp
       - paimon
     proxies:
       - DIRECT
