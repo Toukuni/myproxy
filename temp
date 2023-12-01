@@ -1,1 +1,855 @@
-dmxlc3M6Ly8wMTg3MzVkZS00ZTY5LTRkMGItOWQyZi0xNGJmMmZhMzBlMDdAZWR0dW5uZWwtZGdwLnBhZ2VzLmRldjo4MD9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9bm9uZSZzbmk9dGtuLnRvdWt1bmkud29ya2Vycy5kZXYmdHlwZT13cyZob3N0PXRrbi50b3VrdW5pLndvcmtlcnMuZGV2JnBhdGg9JTJmJTNmZWQlM2QyMDQ4I3Rrbi50b3VrdW5pLndvcmtlcnMuZGV2DQp2bGVzczovLzAxODczNWRlLTRlNjktNGQwYi05ZDJmLTE0YmYyZmEzMGUwN0B3d3cuZ2xhc3Nkb29yLmNvbTo4MD9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9bm9uZSZzbmk9dGtuLnRvdWt1bmkud29ya2Vycy5kZXYmdHlwZT13cyZob3N0PXRrbi50b3VrdW5pLndvcmtlcnMuZGV2JnBhdGg9JTJmJTNmZWQlM2QyMDQ4I3Rrbi50b3VrdW5pLndvcmtlcnMuZGV2DQp2bGVzczovLzAxODczNWRlLTRlNjktNGQwYi05ZDJmLTE0YmYyZmEzMGUwN0B3d3cudmlzYS5jb206ODA/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PW5vbmUmc25pPXRrbi50b3VrdW5pLndvcmtlcnMuZGV2JnR5cGU9d3MmaG9zdD10a24udG91a3VuaS53b3JrZXJzLmRldiZwYXRoPSUyZiUzZmVkJTNkMjA0OCN0a24udG91a3VuaS53b3JrZXJzLmRldg0Kdmxlc3M6Ly8wMTg3MzVkZS00ZTY5LTRkMGItOWQyZi0xNGJmMmZhMzBlMDdAd3d3LnZpc2EuY29tLnR3OjgwP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT1ub25lJnNuaT10a24udG91a3VuaS53b3JrZXJzLmRldiZ0eXBlPXdzJmhvc3Q9dGtuLnRvdWt1bmkud29ya2Vycy5kZXYmcGF0aD0lMmYlM2ZlZCUzZDIwNDgjdGtuLnRvdWt1bmkud29ya2Vycy5kZXYNCnZsZXNzOi8vMDE4NzM1ZGUtNGU2OS00ZDBiLTlkMmYtMTRiZjJmYTMwZTA3QHd3dy52aXNhLmNvbS5oazo4MD9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9bm9uZSZzbmk9dGtuLnRvdWt1bmkud29ya2Vycy5kZXYmdHlwZT13cyZob3N0PXRrbi50b3VrdW5pLndvcmtlcnMuZGV2JnBhdGg9JTJmJTNmZWQlM2QyMDQ4I3Rrbi50b3VrdW5pLndvcmtlcnMuZGV2DQp2bGVzczovLzAxODczNWRlLTRlNjktNGQwYi05ZDJmLTE0YmYyZmEzMGUwN0B3d3cud2hvLmludDo4MD9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9bm9uZSZzbmk9dGtuLnRvdWt1bmkud29ya2Vycy5kZXYmdHlwZT13cyZob3N0PXRrbi50b3VrdW5pLndvcmtlcnMuZGV2JnBhdGg9JTJmJTNmZWQlM2QyMDQ4I3Rrbi50b3VrdW5pLndvcmtlcnMuZGV2DQp2bGVzczovLzAxODczNWRlLTRlNjktNGQwYi05ZDJmLTE0YmYyZmEzMGUwN0B3d3cuZGlnaXRhbG9jZWFuLmNvbTo4MD9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9bm9uZSZzbmk9dGtuLnRvdWt1bmkud29ya2Vycy5kZXYmdHlwZT13cyZob3N0PXRrbi50b3VrdW5pLndvcmtlcnMuZGV2JnBhdGg9JTJmJTNmZWQlM2QyMDQ4I3Rrbi50b3VrdW5pLndvcmtlcnMuZGV2DQp2bGVzczovLzAxODczNWRlLTRlNjktNGQwYi05ZDJmLTE0YmYyZmEzMGUwN0B3d3cuY3Nnby5jb206ODA/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PW5vbmUmc25pPXRrbi50b3VrdW5pLndvcmtlcnMuZGV2JnR5cGU9d3MmaG9zdD10a24udG91a3VuaS53b3JrZXJzLmRldiZwYXRoPSUyZiUzZmVkJTNkMjA0OCN0a24udG91a3VuaS53b3JrZXJzLmRldg0Kdmxlc3M6Ly8wMTg3MzVkZS00ZTY5LTRkMGItOWQyZi0xNGJmMmZhMzBlMDdAd3d3Lmdvdi5zZTo4MD9lbmNyeXB0aW9uPW5vbmUmc2VjdXJpdHk9bm9uZSZzbmk9dGtuLnRvdWt1bmkud29ya2Vycy5kZXYmdHlwZT13cyZob3N0PXRrbi50b3VrdW5pLndvcmtlcnMuZGV2JnBhdGg9JTJmJTNmZWQlM2QyMDQ4I3Rrbi50b3VrdW5pLndvcmtlcnMuZGV2DQp2bGVzczovLzAxODczNWRlLTRlNjktNGQwYi05ZDJmLTE0YmYyZmEzMGUwN0B0aW1lLmNsb3VkZmxhcmUuY29tOjgwP2VuY3J5cHRpb249bm9uZSZzZWN1cml0eT1ub25lJnNuaT10a24udG91a3VuaS53b3JrZXJzLmRldiZ0eXBlPXdzJmhvc3Q9dGtuLnRvdWt1bmkud29ya2Vycy5kZXYmcGF0aD0lMmYlM2ZlZCUzZDIwNDgjdGtuLnRvdWt1bmkud29ya2Vycy5kZXYNCg==
+{
+  "log": {
+    "level": "debug",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui_download_url": "",
+      "external_ui_download_detour": "",
+      "external_ui": "ui",
+      "secret": "",
+      "default_mode": "rule"
+    },
+    "cache_file": {
+      "enabled": true,
+      "store_fakeip": false
+    }
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "proxyDns",
+        "address": "https://8.8.8.8/dns-query",
+        "detour": "proxy"
+      },
+      {
+        "tag": "localDns",
+        "address": "https://223.5.5.5/dns-query",
+        "detour": "direct"
+      },
+      {
+        "tag": "block",
+        "address": "rcode://success"
+      },
+      {
+        "tag": "remote",
+        "address": "fakeip"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "ghproxy.com",
+          "cdn.jsdelivr.net",
+          "testingcf.jsdelivr.net"
+        ],
+        "server": "localDns"
+      },
+      {
+        "rule_set": "geosite-category-ads-all",
+        "server": "block"
+      },
+      {
+        "outbound": "any",
+        "server": "localDns",
+        "disable_cache": true
+      },
+      {
+        "rule_set": "geosite-cn",
+        "server": "localDns"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "localDns"
+      },
+      {
+        "clash_mode": "global",
+        "server": "proxyDns"
+      },
+      {
+        "rule_set": "geosite-geolocation-!cn",
+        "server": "proxyDns"
+      },
+      {
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "server": "remote"
+      }
+    ],
+    "fakeip": {
+      "enabled": true,
+      "inet4_range": "198.18.0.0/15",
+      "inet6_range": "fc00::/18"
+    },
+    "independent_cache": true,
+    "strategy": "ipv4_only"
+  },
+  "inbounds": [
+    {
+      "type": "tun",
+      "inet4_address": "172.19.0.1/30",
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "sniff": true,
+      "endpoint_independent_nat": false,
+      "stack": "system",
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      }
+    },
+    {
+      "type": "mixed",
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "sniff": true,
+      "users": []
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "direct",
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "🤖 OpenAI",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "🌌 Google",
+      "type": "selector",
+      "outbounds": [
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "📟 Telegram",
+      "type": "selector",
+      "outbounds": [
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "🐦 Twitter",
+      "type": "selector",
+      "outbounds": [
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "👤 Facebook",
+      "type": "selector",
+      "outbounds": [
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "🛍️ Amazon",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "🍎 Apple",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "🧩 Microsoft",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "🎮 Game",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "📺 Bilibili",
+      "type": "selector",
+      "outbounds": [
+        "direct"
+      ]
+    },
+    {
+      "tag": "🎬 MediaVideo",
+      "type": "selector",
+      "outbounds": [
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "🌏 !cn",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ]
+    },
+    {
+      "tag": "🌏 cn",
+      "type": "selector",
+      "outbounds": [
+        "direct",
+        "proxy"
+      ]
+    },
+    {
+      "tag": "🛑 AdBlock",
+      "type": "selector",
+      "outbounds": [
+        "block",
+        "direct"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "tkn.toukuni.workers.dev",
+        "tkn.toukuni.workers.dev2",
+        "tkn.toukuni.workers.dev3",
+        "tkn.toukuni.workers.dev4",
+        "tkn.toukuni.workers.dev5",
+        "tkn.toukuni.workers.dev6",
+        "tkn.toukuni.workers.dev7",
+        "tkn.toukuni.workers.dev8",
+        "tkn.toukuni.workers.dev9",
+        "tkn.toukuni.workers.dev10"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "1m",
+      "tolerance": 50
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev",
+      "type": "vless",
+      "server": "edtunnel-dgp.pages.dev",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev2",
+      "type": "vless",
+      "server": "www.glassdoor.com",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev3",
+      "type": "vless",
+      "server": "www.visa.com",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev4",
+      "type": "vless",
+      "server": "www.visa.com.tw",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev5",
+      "type": "vless",
+      "server": "www.visa.com.hk",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev6",
+      "type": "vless",
+      "server": "www.who.int",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev7",
+      "type": "vless",
+      "server": "www.digitalocean.com",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev8",
+      "type": "vless",
+      "server": "www.csgo.com",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev9",
+      "type": "vless",
+      "server": "www.gov.se",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    },
+    {
+      "tag": "tkn.toukuni.workers.dev10",
+      "type": "vless",
+      "server": "time.cloudflare.com",
+      "server_port": 80,
+      "uuid": "018735de-4e69-4d0b-9d2f-14bf2fa30e07",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tkn.toukuni.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2048
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "network": "udp",
+        "port": 443,
+        "outbound": "block"
+      },
+      {
+        "rule_set": "geosite-category-ads-all",
+        "outbound": "🛑 AdBlock"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "proxy"
+      },
+      {
+        "domain": [
+          "clash.razord.top",
+          "yacd.metacubex.one",
+          "yacd.haishan.me",
+          "d.metacubex.one"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "geosite-openai",
+        "outbound": "🤖 OpenAI"
+      },
+      {
+        "rule_set": "geosite-youtube",
+        "outbound": "🌌 Google"
+      },
+      {
+        "rule_set": "geoip-gg",
+        "outbound": "🌌 Google"
+      },
+      {
+        "rule_set": [
+          "geosite-google",
+          "geosite-github"
+        ],
+        "outbound": "🌌 Google"
+      },
+      {
+        "rule_set": "geoip-tg",
+        "outbound": "📟 Telegram"
+      },
+      {
+        "rule_set": "geosite-telegram",
+        "outbound": "📟 Telegram"
+      },
+      {
+        "rule_set": "geoip-tw",
+        "outbound": "🐦 Twitter"
+      },
+      {
+        "rule_set": "geosite-twitter",
+        "outbound": "🐦 Twitter"
+      },
+      {
+        "rule_set": "geoip-fk",
+        "outbound": "👤 Facebook"
+      },
+      {
+        "rule_set": [
+          "geosite-facebook",
+          "geosite-instagram"
+        ],
+        "outbound": "👤 Facebook"
+      },
+      {
+        "rule_set": "geosite-amazon",
+        "outbound": "🛍️ Amazon"
+      },
+      {
+        "rule_set": "geosite-apple",
+        "outbound": "🍎 Apple"
+      },
+      {
+        "rule_set": "geosite-microsoft",
+        "outbound": "🧩 Microsoft"
+      },
+      {
+        "rule_set": "geosite-category-games",
+        "outbound": "🎮 Game"
+      },
+      {
+        "rule_set": "geosite-bilibili",
+        "outbound": "📺 Bilibili"
+      },
+      {
+        "rule_set": [
+          "geosite-tiktok",
+          "geosite-netflix",
+          "geosite-hbo",
+          "geosite-disney",
+          "geosite-primevideo"
+        ],
+        "outbound": "🎬 MediaVideo"
+      },
+      {
+        "rule_set": "geosite-geolocation-!cn",
+        "outbound": "🌏 !cn"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "🌏 cn"
+      },
+      {
+        "rule_set": "geoip-cn",
+        "outbound": "🌏 cn"
+      },
+      {
+        "rule_set": "geosite-cn",
+        "outbound": "🌏 cn"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "geoip-gg",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-gg.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geoip-tg",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-tg.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geoip-tw",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-tw.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geoip-fk",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-fk.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geoip-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-openai",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-openai.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-youtube",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-youtube.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-google",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-github",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-github.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-telegram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-telegram.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-twitter",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-twitter.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-facebook",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-facebook.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-instagram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-instagram.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-amazon",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-amazon.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-apple",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-apple.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-microsoft",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-microsoft.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-category-games",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-games.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-bilibili",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-bilibili.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-tiktok",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-tiktok.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-netflix",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-netflix.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-hbo",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-hbo.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-disney",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-disney.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-primevideo",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-primevideo.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-geolocation-!cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-!cn.srs",
+        "download_detour": "auto"
+      },
+      {
+        "tag": "geosite-category-ads-all",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads-all.srs",
+        "download_detour": "auto"
+      }
+    ]
+  }
+}
