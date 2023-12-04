@@ -14,4 +14,3 @@ git status --porcelain "." >nul && (
     echo No changes to commit.
 )
 
-pause
