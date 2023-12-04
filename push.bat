@@ -1,7 +1,7 @@
 @echo off
 
 REM 检查是否有修改
-git status --porcelain | findstr /R "^.*" >nul && (
+git status --porcelain "1.txt" >nul && (
     REM 添加所有修改
     git add .
 
