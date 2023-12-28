@@ -8,8 +8,9 @@ vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.digitalocean.com:80?security=&s
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.csgo.com:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.gov.se:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@time.cloudflare.com:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@158.178.246.169:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
+vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@158.101.69.144:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@131.186.34.11:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@131.186.59.232:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@141.147.166.189:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@158.178.242.5:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
+vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@140.238.50.99:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
