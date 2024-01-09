@@ -1,15 +1,1 @@
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@edtunnel-dgp.pages.dev:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.glassdoor.com:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.visa.com:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.visa.com.tw:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.visa.com.hk:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.who.int:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.digitalocean.com:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.csgo.com:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.gov.se:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@time.cloudflare.com:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@152.70.107.26:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@193.122.116.210:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@158.101.69.144:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@146.56.182.21:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
-vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@158.101.95.113:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
+31223
