@@ -17,4 +17,3 @@ git diff --exit-code >nul || (
     echo No changes to commit.
 )
 
-pause
