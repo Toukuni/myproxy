@@ -1,4 +1,4 @@
-
+vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@edtunnel-dgp.pages.dev:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.glassdoor.com:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.visa.com:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
 vless://018735de-4e69-4d0b-9d2f-14bf2fa30e07@www.visa.com.tw:80?security=&sni=tkn.toukuni.workers.dev&fp=randomized&type=ws&path=/?ed%3D2048&host=tkn.toukuni.workers.dev&encryption=none#tkn.toukuni.workers.dev
